@@ -12,7 +12,9 @@ Hier sind einige gängige HTML-Elemente und ein Code-Beispiel.
 `<button>Klick mich!</button>`
 
 ### 4. Code-Beispiel
-`public class Main {
+
+```java
+public class Main {
     public static void main(String[] args) {
         // 1. Thread definieren (was soll er tun?)
         Thread meinThread = new Thread(() -> {
@@ -26,8 +28,8 @@ Hier sind einige gängige HTML-Elemente und ein Code-Beispiel.
         System.out.println("Haupt-Programm läuft: " + Thread.currentThread().getName());
     }
 }
-`
+```
 ---
 
 ## Navigation
-Hier geht es zur [zweiten Seite](seite2.html).
+Hier geht es zur [zweiten Seite](page2.html).
